@@ -6,38 +6,56 @@ body {
     flex-direction: column;
     align-items:center;
 }
-  }
 
-  h6 {
+p {
+    width: 60%;
+}
+
+h6 {
     font-size: 14px;
     margin: 0px;
   }
 
-  .trash {
+#count {
+    font-weight : bold
+}
+
+.trash {
     width : 15px;
   }
 
-  .avatar {
+.avatar {
     width: 60px;
     border-radius: 50%;
     margin-right: 15px;
     border: 2px solid #718093;   
   }
 
-  .row {  
-    border-top: 1px solid #718093 ;
-    border-right: 1px solid #718093;
-    border-left: 1px solid #718093;
+.header {  
+    border: 1px solid #718093;
     border-radius: 10px;
-    ;
     background-color: #FFFFFF;
     width : 50%;
     display: flex;
     align-items:center;
-    padding: 15px;        
+    padding: 15px;  
   }
 
-  .last-row {
+.row {  
+    border: 1px solid #718093;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width : 50%;
+    display: flex;
+    align-items:center;
+    padding: 15px;  
+    justify-content: space-between;       
+  }
+
+.last-row {
     border-bottom: 1px solid #718093;
   }
+
+
   
