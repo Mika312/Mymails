@@ -20,6 +20,33 @@ h6 {
     font-weight : bold
 }
 
+#input {
+    width:70%;
+    height:18px;
+    margin-right: 10px
+}
+
+#btn-blue {
+    border-radius: 10%;
+    color : blue;
+    border : 1px solid blue;
+    background-color: white;
+    font-size: 16px
+   
+}
+
+.add-message{
+    border: 1px solid #718093;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width : 50%;
+    display: flex;
+    align-items:center;
+    padding: 15px;  
+    justify-content: center
+}
+
 .trash {
     width : 15px;
   }
@@ -32,6 +59,9 @@ h6 {
   }
 
 .header {  
+    /* border-top: 1px solid #718093 ;
+    border-right: 1px solid #718093;
+    border-left: 1px solid #718093; */
     border: 1px solid #718093;
     border-radius: 10px;
     background-color: #FFFFFF;
@@ -51,10 +81,6 @@ h6 {
     align-items:center;
     padding: 15px;  
     justify-content: space-between;       
-  }
-
-.last-row {
-    border-bottom: 1px solid #718093;
   }
 
 
