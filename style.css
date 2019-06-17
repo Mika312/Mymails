@@ -8,7 +8,7 @@ body {
 }
 
 p {
-    width: 60%;
+    width: 90%;
 }
 
 h6 {
@@ -16,23 +16,85 @@ h6 {
     margin: 0px;
   }
 
+#searchBar {
+    width:300px;
+    height:18px;
+}
+
 #count {
+    width:100px;
     font-weight : bold
 }
 
-#input {
+#message {
     width:70%;
     height:18px;
     margin-right: 10px
 }
 
+#lastName {
+    width:30%;
+    height:18px;
+    margin-right: 10px
+}
+
+#firstName {
+    width:30%;
+    height:18px;
+    margin-right: 10px
+}
+
+#firstLine {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+#secondLine {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+#avatarLine {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+
 #btn-blue {
-    border-radius: 10%;
+    border-radius: 5%;
     color : blue;
-    border : 1px solid blue;
+    border : 1.5px solid blue;
     background-color: white;
-    font-size: 16px
-   
+    font-size: 16px;
+    font-weight : Bold
+}
+
+#btn-search {
+    border-radius: 5%;
+    color : blue;
+    border : 1.5px solid blue;
+    background-color: white;
+    font-size: 16px;
+    font-weight : Bold
+}
+
+.bodyMessage {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+}
+
+.radio {
+    width: 50px;
+    height: 50px;
 }
 
 .add-message{
@@ -43,8 +105,9 @@ h6 {
     width : 50%;
     display: flex;
     align-items:center;
-    padding: 15px;  
-    justify-content: center
+    padding: 15px; 
+    justify-content: center;
+    flex-direction: column
 }
 
 .trash {
@@ -59,14 +122,12 @@ h6 {
   }
 
 .header {  
-    /* border-top: 1px solid #718093 ;
-    border-right: 1px solid #718093;
-    border-left: 1px solid #718093; */
     border: 1px solid #718093;
     border-radius: 10px;
     background-color: #FFFFFF;
     width : 50%;
     display: flex;
+    justify-content: space-between;
     align-items:center;
     padding: 15px;  
   }

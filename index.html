@@ -5,58 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=B612+Mono&display=swap" rel="stylesheet"></head>
 <body>
     <div class='header'>
-        <span>Nombre de Message :</span><p id="count">0</p  >
+        <span>Nombre de Message :</span><p id="count">0</p>
+        <input id='searchBar' type="text" placeholder="Search" value="">
+        <button id='btn-search' type="button">Search</button>
     </div>
 
     <div class='add-message'>
-        <input id='input' type="text" placeholder="New Message" value="">
+        <div id='avatarLine'>
+            <input class = 'radioAvatar' type="radio" name='avatar' value="avatar-1.jpg"><img  class='radio' src="avatar-1.jpg">
+            <input class = 'radioAvatar' type="radio" name='avatar' value="avatar-2.jpg"><img  class='radio' src="avatar-2.jpg">
+            <input class = 'radioAvatar' type="radio" name='avatar' value="avatar-3.jpg"><img  class='radio' src="avatar-3.jpg">
+            <input class = 'radioAvatar' type="radio" name='avatar' value="avatar-4.jpg"><img  class='radio' src="avatar-4.jpg">
+            <input class = 'radioAvatar' type="radio" name='avatar' value="avatar-5.jpg"><img  class='radio' src="avatar-5.jpg">
+        </div>
+        <div id='firstLine'>       
+        <input id='lastName' type="text" placeholder="Nom" value="">
+        <input id='firstName' type="text" placeholder="Prenom" value="">
+        </div>
+        <div id='secondLine'>
+        <input id='message' type="text" placeholder="New Message" value="">
         <button id='btn-blue' type="button">Add</button>
+        </div>
     </div>
 
     <div class='row'>
         <img class="avatar" src="avatar-1.jpg">
-        <div>
-        <h6>Elise</h6>
-        <h6>Watson</h6>
-        </div>  
-        <p>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. 
+        <div class = "bodyMessage">
+        <h6 class = 'firstName'>Vincent</h6>  
+        <h6 class = 'lastName'>LAZARUS</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus pariatur nemo tempore assumenda suscipit sint numquam! Sed qui, ullam dicta libero nobis quia deserunt? Quas corrupti dolorem in illum impedit.
         </p>
+        </div>
         <img class="trash" src="trash.png" alt="">
     </div>
 
     <div class='row'>
-        <img class="avatar" src="avatar-1.jpg">
-        <div>
-        <h6>Elise</h6>
-        <h6>Watson</h6>
-        </div>
-        <p>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. 
+        <img class="avatar" src="avatar-2.jpg">
+        <div class = "bodyMessage">
+        <h6 class = 'firstName'>Anaïs</h6>
+        <h6 class = 'lastName'>MALONGA-NAVARRO</h6>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam id similique veniam eum illum excepturi saepe nulla! Distinctio, temporibus optio. Voluptates, similique. Autem neque mollitia reiciendis, repudiandae ex veritatis porro.
         </p>
+        </div>
         <img class="trash" src="trash.png" alt="">
     </div>
 
     <div class='row'>
-        <img class="avatar" src="avatar-1.jpg">
-        <div>
-        <h6>Elise</h6>
-        <h6>Watson</h6>
-        </div>
-        <p>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. 
+        <img class="avatar" src="avatar-3.jpg">
+        <div  class = "bodyMessage">
+        <h6 class = 'firstName'>Alexandre</h6>
+        <h6 class = 'lastName'>RENARD</h6>
+        <p>TEST
         </p>
+        </div>
         <img class="trash" src="trash.png" alt="">
     </div>
 
-     <div class="row last-row">
-        <img class="avatar" src="avatar-1.jpg">
-        <div>
-        <h6>Elise</h6>
-        <h6>Watson</h6>
-        </div>
-        <p>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. 
+     <div class="row">
+        <img class="avatar" src="avatar-4.jpg">
+        <div class = "bodyMessage">
+        <h6 class = 'firstName'>Océane</h6>
+        <h6 class = 'lastName'>MALONGA</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel, dolorum aspernatur, magni porro inventore enim, corporis dolore sunt quas assumenda. Obcaecati consequuntur perferendis enim iure, quidem sequi reiciendis rem?
         </p>
+        </div>
         <img class="trash" src="trash.png" alt="">
     </div>
     <script src="script.js"></script>
